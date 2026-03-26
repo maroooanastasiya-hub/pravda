@@ -1,0 +1,20 @@
+{
+  "name": "truth-or-dare-game",
+  "version": "1.0.0",
+  "description": "Консольная игра Правда или Действие на Node.js",
+  "main": "game.js",
+  "scripts": {
+    "start": "node game.js",
+    "lint": "eslint ."
+  },
+  "keywords": ["game", "truth-or-dare", "nodejs"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "readline-sync": "^1.4.10"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  }
+}
